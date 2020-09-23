@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background-color: #252525;
+}
+#header {
+    position: fixed;
+    display: block;
+    height: 110px;
+    margin-left: 2%;
+    width: 100%;
+}
+
+#logo {
+    width: auto;
+    height: 110px;
+}
+
+#emailText{
+    position: static;
+    left: 15px;
+    margin-right: 0px;
+}
+
+.logoFont{
+    color: white;
+    font-family: Moon;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: block;
+    font-size: large;
+}
+
+@font-face {
+    font-family: Moon;
+    src: url(fonts/Moon2.0-Bold.otf);
+}
